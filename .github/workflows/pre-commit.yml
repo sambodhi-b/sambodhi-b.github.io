@@ -1,0 +1,17 @@
+name: Pre-Commit CI Lite
+
+on:
+  pull_request:
+  push:
+    branches:
+      - "source"
+
+jobs:
+  pre-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: pre-commit.ci lite
+        uses: pre-commit-ci/lite-action@v1.0.0
+        with:
+          msg: "[pre-commit.ci lite] apply automatic fixes"
+
