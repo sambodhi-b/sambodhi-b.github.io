@@ -1,6 +1,0 @@
-site:
-  title: Sambodhi B
-  description: Sambodhi's Site
-  base_url: https://sambodhi-b.github.io/
-posts:
-  rss: rss.xml
